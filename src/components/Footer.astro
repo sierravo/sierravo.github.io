@@ -128,18 +128,7 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
             >About</a
           >
-          {
-            siteConfig.social?.resume && (
-              <a
-                href={siteConfig.social.resume}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="hover:text-[var(--accent-color)] transition-colors"
-              >
-                Resume
-              </a>
-            )
-          }
+          
           {
             hasProjects && (
               <a
@@ -167,6 +156,20 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
                 class="text-sm text-gray-600 hover:text-gray-800 transition-colors"
               >
                 Education
+              </a>
+            )
+          }
+          {
+            siteConfig.social?.resume && (
+              <a
+                href={siteConfig.social.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Resume"
+                class="text-gray-600 transition-colors duration-300 hover:text-[var(--accent-color)] text-sm font-semibold"
+                style={`--accent-color: ${siteConfig.accentColor}`}
+              >
+                Resume
               </a>
             )
           }
