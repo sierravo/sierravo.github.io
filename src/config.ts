@@ -6,6 +6,7 @@ export const siteConfig = {
   social: {
     linkedin: "https://www.linkedin.com/in/sierra-vo",
     github: "https://github.com/sierravo",
+    resume: ""
   },
   aboutMe:
   "I am a data scientist and analytics professional with a background in statistics, finance, and applied machine learning. I use SQL, Python, and statistical modeling to turn messy data into forecasts, metrics, and business decisions. My work focuses on fintech analytics, product analytics, forecasting, experimentation, and decision support.",
@@ -14,21 +15,21 @@ export const siteConfig = {
     {
       name: "Multimodal Emotion Recognition for Media Analytics",
       description:
-        "Built a media analytics pipeline combining facial landmark features, pixel-based image modeling, text-emotion scoring, and prediction aggregation to analyze observable emotional signals in article text and images.",
+        "Built a media analytics pipeline combining facial landmark features, pixel-based image modeling, text-emotion scoring, and prediction aggregation to analyze observable emotional signals in article text and images. Business Impact: Demonstrated how combining text and visual signals can improve audience sentiment analysis, with potential applications in media analytics, content evaluation, and customer feedback analysis.",
       link: "https://github.com/sierravo/Multimodal-Emotion-Recognition-for-Media-Analytics",
       skills: ["Python", "pandas", "scikit-learn", "XGBoost", "TensorFlow", "PyTorch", "BeautifulSoup", "pytest"],
     },
     {
       name: "Crypto Forecasting with Time-Series Machine Learning",
       description:
-        "Compared LSTM, graph-based models, and simple forecasting baselines for multi-asset crypto return prediction, with emphasis on leakage control, time-series validation, baseline comparison, and model evaluation.",
+        "Compared LSTM, graph-based models, and simple forecasting baselines for multi-asset crypto return prediction, with emphasis on leakage control, time-series validation, baseline comparison, and model evaluation. Business Impact: Demonstrated that increased model complexity did not improve forecast accuracy, helping guide model selection toward simpler and more interpretable approaches for financial forecasting and risk monitoring.",
       link: "https://github.com/sierravo/Crypto-Forecasting-Hybrid-Models",
       skills: ["Python", "pandas", "NumPy", "scikit-learn", "PyTorch", "Time-Series Forecasting", "Model Evaluation"],
     },
     {
       name: "Music Revenue Forecasting & Marketing Allocation",
       description:
-        "Built a forecasting and decision-support workflow to predict next-month artist revenue, compare models against simple baselines, and translate predictions into a marketing budget allocation framework.",
+        "Built a forecasting and decision-support workflow to predict next-month artist revenue, compare models against simple baselines, and translate predictions into a marketing budget allocation framework. Business Impact: Translated revenue forecasts into marketing budget recommendations by identifying artists with the highest expected growth, improving potential allocation efficiency and prioritization decisions.",
       link: "https://github.com/sierravo/Music-Revenue-Forecasting",
       skills: ["Python", "pandas", "scikit-learn", "LightGBM", "Forecasting", "Model Evaluation", "Marketing Analytics"],
     },
