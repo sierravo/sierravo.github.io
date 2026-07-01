@@ -6,6 +6,7 @@ export const siteConfig = {
   social: {
     linkedin: "https://www.linkedin.com/in/sierra-vo",
     github: "https://github.com/sierravo",
+    resume: "resume: "/Resume_for_website.pdf",
   },
   aboutMe:
   "I am a data scientist and analytics professional with a background in statistics, finance, and applied machine learning. I use SQL, Python, and statistical modeling to turn messy data into forecasts, metrics, and business decisions. My work focuses on fintech analytics, product analytics, forecasting, experimentation, and decision support.",
