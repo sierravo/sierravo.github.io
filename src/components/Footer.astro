@@ -129,6 +129,18 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
             >About</a
           >
           {
+            siteConfig.social?.resume && (
+              <a
+                href={siteConfig.social.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="hover:text-[var(--accent-color)] transition-colors"
+              >
+                Resume
+              </a>
+            )
+          }
+          {
             hasProjects && (
               <a
                 href="#projects"

@@ -56,6 +56,20 @@ const hasEducation = siteConfig.education && siteConfig.education.length > 0;
           </li>
         )
       }
+      {
+        siteConfig.social?.resume && (
+          <li>
+            <a
+              href={siteConfig.social.resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-gray-700 hover:text-black transition-colors font-medium"
+            >
+              Resume
+            </a>
+          </li>
+        )
+      }
     </ul>
   </nav>
 </header>
